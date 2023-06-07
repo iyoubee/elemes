@@ -24,7 +24,7 @@ export const TrendingCard: React.FC<TrendingCardProps> = ({
 
   return (
     <div
-      className={`${backgroundColor} w-full h-full relative p-5 rounded-md flex-none drop-shadow-lg`}
+      className={`${backgroundColor} w-full h-full relative p-5 rounded-md flex-none drop-shadow-lg cursor-pointer`}
     >
       <Image
         src={image}
