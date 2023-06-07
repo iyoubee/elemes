@@ -1,7 +1,6 @@
 import React from 'react'
 
 export const Elemes = () => {
-  // TODO: Place svg's elements here and strip out sizing, fill, and stroke attribute then place className={`${size} ${fill} ${stroke} ${className}`} in the <svg> tag
   return (
     <svg
       width="150"
