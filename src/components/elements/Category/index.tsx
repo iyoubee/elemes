@@ -13,7 +13,7 @@ export const Category: React.FC = () => {
           Receipt
         </p>
       </div>
-      <div className="flex gap-3 overflow-x-auto w-full mt-5">
+      <div className="flex gap-5 overflow-x-auto w-full mt-5 h-[250px] items-center">
         {DATA.map((data) => (
           <CategoryCard
             key={data.name}

@@ -1,0 +1,58 @@
+export const DATA = [
+  {
+    image: '/images/trending/peperoni.svg',
+    name: 'Pizza Paperoni',
+    category: 'Pizza',
+    score: 4,
+    backgroundColor: 'bg-[#E6F3F5]',
+  },
+  {
+    image: '/images/trending/meat.svg',
+    name: 'Pizza Meat',
+    category: 'Pizza',
+    score: 3,
+    backgroundColor: 'bg-[#E6F3F5]',
+  },
+  {
+    image: '/images/trending/kebab.svg',
+    name: 'Doner Kebab',
+    category: 'Kebab',
+    score: 5,
+    backgroundColor: 'bg-[#EAEEFA]',
+  },
+  {
+    image: '/images/trending/salmon.svg',
+    name: 'Salmon Roll',
+    category: 'Salmon',
+    score: 4,
+    backgroundColor: 'bg-[#F9EEF3]',
+  },
+  {
+    image: '/images/trending/cupcake.svg',
+    name: 'Cupcake Choco',
+    category: 'Cupcake',
+    score: 4,
+    backgroundColor: 'bg-[#F0FEEB]',
+  },
+  {
+    image: '/images/trending/milk.svg',
+    name: 'Doughnut Milk',
+    category: 'Doughnut',
+    score: 5,
+    backgroundColor: 'bg-[#F3F7D9]',
+  },
+  {
+    image: '/images/trending/unicorn.svg',
+    name: 'Doughnut Unicorn',
+    category: 'Doughnut',
+    score: 4,
+    backgroundColor: 'bg-[#F3F7D9]',
+  },
+  {
+    image: '/images/trending/katchi.svg',
+    name: 'Kathi Kebab',
+    category: 'Kebab',
+    score: 4,
+    backgroundColor: 'bg-[#EAEEFA]',
+  },
+]

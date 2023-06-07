@@ -10,13 +10,13 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({
 }) => {
   return (
     <div
-      className={`${backgroundColor} h-[200px] flex flex-col items-center justify-center relative rounded-lg w-[230px] flex-none`}
+      className={`${backgroundColor} h-[200px] flex flex-col items-center justify-center relative rounded-lg w-[230px] flex-none transition-all hover:scale-110 drop-shadow-lg`}
     >
       <Image
         src={image}
         height={50}
         width={50}
-        alt="name"
+        alt={name}
         className="relative"
       />
       <div className="w-full flex flex-col items-center justify-center">
