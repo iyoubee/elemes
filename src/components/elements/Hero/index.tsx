@@ -35,10 +35,13 @@ export const Hero: React.FC = () => {
           </p>
         </div>
         <div className="flex gap-3 mt-5">
-          <Button variant={1} className="text-xs drop-shadow-2xl text-white">
+          <Button
+            variant={1}
+            className="text-xs lg:text-base drop-shadow-2xl text-white"
+          >
             Daftar Sekarang
           </Button>
-          <Button variant={2} className="text-xs drop-shadow-2xl">
+          <Button variant={2} className="text-xs lg:text-base drop-shadow-2xl">
             About Us
           </Button>
         </div>
